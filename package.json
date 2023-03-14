@@ -1,0 +1,32 @@
+{
+  "name": "liczbyslowniepopolsku",
+  "version": "1.0.0",
+  "description": "Zamien liczby na zapis slowny",
+  "main": "./src/index.js",
+  "type": "module",
+  "author": "Konrad Tytus Gruca",
+  "license": "MIT",
+  "exports": {
+    "./src/liczbySlownie.js": {
+      "import": "./src/liczbySlownie.js",
+      "require": "./src/liczbySlownie.js"
+    },
+    "./src/index.js": {
+      "import": "./src/index.js",
+      "require": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2"
+  }
+}
