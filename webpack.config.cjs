@@ -1,11 +1,11 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/liczbySlownie.js",
+  entry: "./src/liczbyslownie.js",
   output: {
-    filename: "liczbySlownie.js",
+    filename: "liczbyslownie.js",
     path: path.resolve(__dirname, "dist"),
-    library: "liczbySlownie",
+    library: "liczbyslowniepopolsku",
     libraryTarget: "umd",
   },
   module: {

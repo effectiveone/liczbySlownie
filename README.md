@@ -9,7 +9,7 @@
 <p>Funkcja liczbySlownie przyjmuje argument typu number i zwraca słowną reprezentację liczby.</p>
 
 ```
-import { liczbySlownie } from "./liczbySlownie";
+import { liczbySlownie } from "liczbyslowniepopolsku";
 
 console.log(liczbySlownie(1234));
 // Zwraca "jeden tysiąc dwieście trzydzieści cztery"

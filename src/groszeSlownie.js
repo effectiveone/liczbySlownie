@@ -4,7 +4,7 @@ import {
   dziesiatki,
   nascie,
   jednosci,
-} from "./odmianaDziesiatek.js";
+} from "./odmianadziesiatek.js";
 export function groszeSlownie(liczba) {
   const licznik = liczba?.toFixed(2);
   let [zloteRaw, groszeRaw] = licznik.toString().split(".");

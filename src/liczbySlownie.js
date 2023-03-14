@@ -1,12 +1,12 @@
-import { odmianaZlotych } from "./odmianaZlotych.js";
-import { groszeSlownie } from "./groszeSlownie.js";
+import { odmianaZlotych } from "./odmianazlotych.js";
+import { groszeSlownie } from "./groszeslownie.js";
 import {
   grupy,
   setki,
   dziesiatki,
   nascie,
   jednosci,
-} from "./odmianaDziesiatek.js";
+} from "./odmianadziesiatek.js";
 
 export function liczbySlownie(liczba) {
   const licznik = liczba?.toFixed(2);
