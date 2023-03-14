@@ -1,4 +1,4 @@
-import { liczbySlownie } from "./liczbySlownie";
+import { liczbySlownie } from "./liczbyslownie";
 
 describe("liczbySlownie", () => {
   test("konwertuje poprawnie liczby całkowite do 999", () => {

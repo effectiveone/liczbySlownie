@@ -9,7 +9,7 @@ import {
 } from "./odmianadziesiatek.js";
 
 export function liczbySlownie(liczba) {
-  const licznik = liczba?.toFixed(2);
+  const licznik = liczba != null ? liczba.toFixed(2) : null;
   let [zloteRaw, groszeRaw] = licznik.toString().split(".");
   let zlote = parseInt(zloteRaw);
   const nominal = odmianaZlotych(zlote);
