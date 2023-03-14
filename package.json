@@ -1,6 +1,6 @@
 {
   "name": "liczbyslowniepopolsku",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Zamien liczby na zapis slowny",
   "main": "./src/index.js",
   "type": "module",
