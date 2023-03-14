@@ -1,15 +1,15 @@
 {
   "name": "liczbyslowniepopolsku",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Zamien liczby na zapis slowny",
   "main": "./src/index.js",
   "type": "module",
   "author": "Konrad Tytus Gruca",
   "license": "MIT",
   "exports": {
-    "./src/liczbySlownie.js": {
-      "import": "./src/liczbySlownie.js",
-      "require": "./src/liczbySlownie.js"
+    "./src/liczbyslownie.js": {
+      "import": "./src/liczbyslownie.js",
+      "require": "./src/liczbyslownie.js"
     },
     "./src/index.js": {
       "import": "./src/index.js",
