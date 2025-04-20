@@ -33,7 +33,7 @@ Ten Kodeks Postępowania ma zastosowanie zarówno w przestrzeniach projektu, jak
 
 ## Egzekwowanie
 
-Przypadki nadużyć, nękania lub innego niedopuszczalnego zachowania mogą być zgłaszane przez kontakt z zespołem projektu pod adresem [TWÓJ_ADRES_EMAIL]. Wszystkie skargi będą rozpatrywane i badane szybko i sprawiedliwie. Zespół projektu jest zobowiązany do zachowania poufności w stosunku do osoby zgłaszającej incydent.
+Przypadki nadużyć, nękania lub innego niedopuszczalnego zachowania mogą być zgłaszane przez kontakt z zespołem projektu pod adresem konrad.gruca90@gmail.com. Wszystkie skargi będą rozpatrywane i badane szybko i sprawiedliwie. Zespół projektu jest zobowiązany do zachowania poufności w stosunku do osoby zgłaszającej incydent.
 
 ## Atrybucja
 
