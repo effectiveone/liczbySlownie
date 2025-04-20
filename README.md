@@ -1,34 +1,71 @@
-# Przekształcanie liczb na słowa
+# Liczby Słownie po Polsku
 
-<p>Ten projekt umożliwia przekształcenie liczby na jej słowną reprezentację. Na przykład, podając 1234 jako argument, zwrócona zostanie wartość "jeden tysiąc dwieście trzydzieści cztery".</p>
+Nowoczesna biblioteka TypeScript do konwersji liczb na ich zapis słowny w języku polskim. Wersja 2.0.0 została całkowicie przepisana z wykorzystaniem najnowszych technologii i best practices.
 
-## Jak używać
+## Instalacja
 
-<p>Aby korzystać z tego projektu, należy wywołać funkcję liczbySlownie z odpowiednim argumentem.</p>
-<br>
-<p>Funkcja liczbySlownie przyjmuje argument typu number i zwraca słowną reprezentację liczby.</p>
-
-```
-import { liczbySlownie } from "liczbyslowniepopolsku";
-
-console.log(liczbySlownie(1234));
-// Zwraca "jeden tysiąc dwieście trzydzieści cztery"
+```bash
+npm install liczbySlowniepopolsku
+# lub
+yarn add liczbySlowniepopolsku
 ```
 
-## Jak działa
+## Użycie
 
-<p>Projekt działa poprzez dzielenie liczby na grupy cyfr - zawsze po trzy cyfry. Następnie każda z tych grup jest przetwarzana, a ich słowna reprezentacja jest dodawana do wyniku.</p>
-<br>
-<p>Jeśli liczba posiada część dziesiętną, to zostaje ona oddzielona od części całkowitej i przetwarzana osobno.</p>
+```typescript
+import { LiczbySlownie } from 'liczbySlowniepopolsku';
 
-## Co zawiera
+// Podstawowe użycie
+const konwerter = new LiczbySlownie();
+console.log(konwerter.liczbySlownie(1234)); // "tysiąc dwieście trzydzieści cztery"
+console.log(konwerter.kwotaSlownie(1234.56)); // "tysiąc dwieście trzydzieści cztery złote i pięćdziesiąt sześć groszy"
 
-<p>Projekt zawiera moduł liczbySlownie, który eksportuje funkcję liczbySlownie. Moduł zapis zawiera stałe używane przez funkcję liczbySlownie, takie jak słowne reprezentacje jednostek, dziesiątek, setek, itd.</p>
+// Z niestandardową konfiguracją
+const konwerterNiestandardowy = new LiczbySlownie({
+  separator: '-',
+  groszeSeparator: 'oraz'
+});
+console.log(konwerterNiestandardowy.liczbySlownie(21)); // "dwadzieścia-jeden"
+console.log(konwerterNiestandardowy.kwotaSlownie(1.01)); // "jeden złotyorazjeden grosz"
+```
 
-## Jak uruchomić
+## Funkcje
 
-<p>Aby uruchomić projekt, należy zainstalować zależności poprzez wywołanie polecenia npm install, a następnie wywołać skrypt start poleceniem npm start.</p>
+### liczbySlownie(liczba: number): string
+Konwertuje liczbę na jej zapis słowny.
+
+### kwotaSlownie(kwota: number): string
+Konwertuje kwotę (z groszami) na zapis słowny.
+
+## Konfiguracja
+
+Możesz dostosować zachowanie biblioteki poprzez przekazanie obiektu konfiguracyjnego:
+
+```typescript
+interface Konfiguracja {
+  separator: string; // separator między słowami (domyślnie: spacja)
+  groszeSeparator: string; // separator między złotymi a groszami (domyślnie: " i ")
+}
+```
+
+## Wsparcie dla TypeScript
+
+Biblioteka jest w pełni napisana w TypeScript i zawiera wszystkie potrzebne deklaracje typów.
+
+## Testy
+
+Biblioteka jest w pełni przetestowana. Aby uruchomić testy:
+
+```bash
+npm test
+# lub
+yarn test
+```
+
+## Licencja
+
+MIT
 
 ## Autor
 
-<p>Ten projekt został stworzony przez Konrad Gruca.</p>
+Konrad Tytus Gruca

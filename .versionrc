@@ -1,0 +1,15 @@
+{
+  "types": [
+    {"type": "feat", "section": "Nowe funkcje"},
+    {"type": "fix", "section": "Poprawki błędów"},
+    {"type": "docs", "section": "Dokumentacja"},
+    {"type": "style", "section": "Style"},
+    {"type": "refactor", "section": "Refaktoryzacja"},
+    {"type": "perf", "section": "Wydajność"},
+    {"type": "test", "section": "Testy"},
+    {"type": "build", "section": "Budowanie"},
+    {"type": "ci", "section": "CI"},
+    {"type": "chore", "section": "Zadania"},
+    {"type": "revert", "section": "Cofnięcie zmian"}
+  ]
+} 
