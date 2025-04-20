@@ -11,7 +11,7 @@ Używamy wersjonowania semantycznego, aby zarządzać wersjami biblioteki. Wspar
 
 ## Zgłaszanie podatności
 
-Zachęcamy do zgłaszania potencjalnych podatności bezpieczeństwa. Prosimy o wysłanie e-maila na adres [TWÓJ_ADRES_EMAIL] z opisem podatności.
+Zachęcamy do zgłaszania potencjalnych podatności bezpieczeństwa. Prosimy o wysłanie e-maila na adres  konrad.gruca90@gmail.com. z opisem podatności.
 
 Zgłoszenia podatności będą rozpatrywane w ciągu 48 godzin.
 
